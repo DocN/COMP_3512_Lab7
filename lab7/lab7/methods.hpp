@@ -23,5 +23,15 @@ public:
 		return max;
 	}
 
+	int min(std::vector<int>&v) {
+		int min = v[0];
+		for (int i = 0; i < v.size(); i++) {
+			if (v[i] < min) {
+				min = v[i];
+			}
+		}
+		return min;
+	}
+
 
 };
