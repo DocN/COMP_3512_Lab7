@@ -32,6 +32,8 @@ public:
 		}
 		return min;
 	}
-
+	int average(std::vector<int>& v) {
+		return (this->sum(v) / v.size());
+	}
 
 };
